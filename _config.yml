@@ -1,14 +1,18 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: My sample book
-author: The Jupyter Book Community
-logo: logo.png
+title: AAA Data and Analytics Summer Workshop V 
+author: Dr. Joseph Foy and Dr. Calvester Legister
+logo: AAA logo.jpg
+copyright: "2024"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
+
+# Build settings
+only_build_toc_files: true  # Ensures only files listed in _toc.yml are built
 
 # Define the name of the latex output file for PDF builds
 latex:
